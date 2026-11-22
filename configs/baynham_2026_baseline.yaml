@@ -1,0 +1,28 @@
+detector:
+  n_atoms_top: 3100.0
+  n_atoms_top_err: 210.0
+  n_atoms_bottom: 2040.0
+  n_atoms_bottom_err: 160.0
+  atom_calibration_rel_err: 0.08
+
+  contrast_top: 0.81
+  contrast_bottom: 0.84
+
+  p0_top: 0.50
+  p0_bottom: 0.50
+
+  delta_phi_bias_rad: 0.1022
+
+dataset:
+  total_shots_combined: 56623
+  shots_per_dataset: 28312
+  shots_per_block: 141
+  duration_hours: 61.9
+
+published_targets:
+  cramer_rao_per_shot_mrad: 43.5
+  cramer_rao_per_shot_err_mrad: 1.6
+  whole_dataset_bound_urad: 258.0
+  whole_dataset_bound_err_urad: 10.0
+  block_scatter_lln_mrad: 3.69
+  block_scatter_hln_mrad: 3.89
